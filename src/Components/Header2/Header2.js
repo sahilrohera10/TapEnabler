@@ -110,7 +110,7 @@ const Header2 = () => {
                   </li>
                   <li className="ml-4  font-semibold navlink">
                     <a
-                      className="focus:text-darkcyan-500 text-lg"
+                      className="focus:text-#8E8D8D-500 text-lg"
                       href="javascript:void(0)"
                     >
                       Contact Us
@@ -142,32 +142,38 @@ const Header2 = () => {
             </div>
             <div role="contentinfo" className="w-full lg:w-1/2 h-full">
               <p
-                style={{ color: "darkcyan" }}
+                style={{ color: "#8E8D8D" }}
                 tabIndex="0"
                 className="text-3xl mb-4 font-bold"
               >
                 TapEnabler -
               </p>
               <h1
-                style={{ color: "darkcyan" }}
+                style={{ color: "#212121" }}
                 tabIndex="0"
-                className="text-4xl lg:text-6xl font-black mb-8"
+                className="text-4xl lg:text-6xl font-black mb-4"
               >
                 Let's Facilitate!
               </h1>
+              <hr />
+              <br />
               <p
+                style={{ color: "#4e4e4e" }}
                 tabIndex="0"
-                className="text-gray-800 font-regular mb-8 font-bold text-lg"
+                className="font-regular mb-8 font-bold text-lg"
               >
                 Tapping to your Needs through our Enablers <br />
-                <span style={{ color: "darkcyan" }}>
+                <span style={{ color: "#8E8D8D" }}>
                   Let's Tap to Enable You!
                 </span>
               </p>
 
-              <div className="bg-white lg:mt-16 py-4 px-4 flex flex-col sm:flex-row justify-start sm:justify-between items-start sm:items-center shadow-lg rounded-lg">
+              <div className="bg-white lg:mt-16 py-4 px-4 flex flex-col sm:flex-row justify-start sm:justify-between items-start sm:items-center shadow-lg rounded-lg headlast ">
                 <div className="py-2">
-                  <p className="text-xl font-bold tracking-wider">
+                  <p
+                    style={{ color: "#F6F6F6" }}
+                    className="text-xl font-bold tracking-wider"
+                  >
                     Early Intervention | Special Education | Counselling &
                     Therapies
                   </p>

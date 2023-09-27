@@ -2,7 +2,18 @@
     padding: 4px;
 }
 .navlink:hover{
- background-color: #008B8B;
+ background-color: #6D9886;
 color: white;
 border-radius: 20px;
+}
+
+.headlast{
+    background-color: #6D9886;
+    color: white;
+}
+hr{
+    width: 22vw;
+    height: 6px;
+    background: #D9CAB3;
+    margin-left: 14vw;
 }
