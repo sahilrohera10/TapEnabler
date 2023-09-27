@@ -36,12 +36,12 @@ const Header2 = () => {
                     onclick="dropdownHandler(this)"
                   >
                     <a href="javascript:void(0)">
-                      <span className="ml-2 font-bold">Claims</span>
+                      <span className="ml-2 font-bold">About Us</span>
                     </a>
                   </li>
                   <li className="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
                     <a href="javascript:void(0)">
-                      <span className="ml-2 font-bold">Renewals</span>
+                      <span className="ml-2 font-bold">Services</span>
                     </a>
                   </li>
                   <li
@@ -49,7 +49,7 @@ const Header2 = () => {
                     onclick="dropdownHandler(this)"
                   >
                     <a href="javascript:void(0)">
-                      <span className="ml-2 font-bold">Reports</span>
+                      <span className="ml-2 font-bold">Contact Us</span>
                     </a>
                   </li>
                 </ul>
