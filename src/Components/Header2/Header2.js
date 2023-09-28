@@ -155,7 +155,7 @@ const Header2 = () => {
               >
                 Let's Facilitate!
               </h1>
-              <hr />
+              <hr style={{ marginLeft: "14vw" }} />
               <br />
               <p
                 style={{ color: "#4e4e4e" }}
