@@ -4,11 +4,11 @@
 }
 .list{
     margin: 20px;
-    border-bottom: 2px solid #6D9886;
+    border-bottom: 3px solid #6D9886;
     padding: 5px;
     /* background-color: #6D9886; */
     /* color: #F6F6F6; */
-    border-radius: 20px;
+    /* border-radius: 20px; */
     font-weight: 700;
 }
 .abtimg{

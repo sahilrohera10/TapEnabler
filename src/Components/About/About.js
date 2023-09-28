@@ -13,7 +13,6 @@ const About = () => {
       </p>
       <hr style={{ width: "7vw", marginLeft: "40.5vw" }} />
       <br />
-      <br />
 
       <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
         <div className="w-full lg:w-6/12">
