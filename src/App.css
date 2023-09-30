@@ -8,6 +8,9 @@
   text-align: center;
 
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .custom-cursor {
   position: fixed;
@@ -19,4 +22,18 @@
   transform: translate(-50%, -50%);
   transition: transform 0.1s ease, background-color 0.3s ease;
   mix-blend-mode: difference; /* Customize blend mode */
+}
+
+.chipc{
+  position: absolute;
+  z-index: 1000000000;
+  width: 350px;
+  height: 6vh;
+  right: 12vw;
+  background-color: #D9CAB3
+}
+@media (max-width : 770px) {
+  .chipc{
+    display: none;
+  }
 }

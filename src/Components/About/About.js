@@ -4,7 +4,10 @@ import img from "../../assets/aboutimg.jpg";
 
 const About = () => {
   return (
-    <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+    <div
+      id="about"
+      className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4"
+    >
       <p
         style={{ color: "#212121" }}
         className="font-bold text-3xl leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-4"

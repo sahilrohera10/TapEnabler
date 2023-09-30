@@ -1,4 +1,6 @@
 import React from "react";
+import frahdi from "../../assets/frahadiimg.jpg";
+import garimadi from "../../assets/garimadiimg.jpg";
 function Founder() {
   return (
     <div>
@@ -23,7 +25,37 @@ function Founder() {
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <div className="h-32 w-32">
                     <img
-                      src="https://cdn.tuk.dev/assets/photo-1530577197743-7adf14294584.jfif"
+                      src={garimadi}
+                      alt
+                      className="rounded-full object-cover h-full w-full shadow-md"
+                    />
+                  </div>
+                </div>
+                <div className="px-6 mt-16 pb-8">
+                  <div className="font-bold text-3xl text-center pb-1">
+                    Garima
+                  </div>
+                  <p className="text-gray-800 text-lg text-center">Founder</p>
+                  <p className="text-justify text-gray-600 text-base pt-3 font-normal">
+                    Mrs. Garima, the founder of Tapenabler, is a dedicated
+                    educator with a visionary spirit. Her journey began in the
+                    classroom, where she passionately nurtured young minds.
+                    However, it was during her tenure as a teacher that she
+                    keenly observed a critical gap in our education system – the
+                    inadequate provision for special education and early
+                    intervention. Interactions with students, parents, and
+                    caregivers exposed Mrs. Garima to the growing disparity in
+                    educational opportunities.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+              <div className="rounded overflow-hidden shadow-md bg-white">
+                <div className="absolute -mt-20 w-full flex justify-center">
+                  <div className="h-32 w-32">
+                    <img
+                      src={frahdi}
                       alt
                       className="rounded-full object-cover h-full w-full shadow-md"
                     />
@@ -45,36 +77,6 @@ function Founder() {
                     specialized education milieu, Ms. Baig has cultivated an
                     acute acumen for the nuanced needs of individuals graced
                     with unique abilities.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-              <div className="rounded overflow-hidden shadow-md bg-white">
-                <div className="absolute -mt-20 w-full flex justify-center">
-                  <div className="h-32 w-32">
-                    <img
-                      src="https://cdn.tuk.dev/assets/photo-1530577197743-7adf14294584.jfif"
-                      alt
-                      className="rounded-full object-cover h-full w-full shadow-md"
-                    />
-                  </div>
-                </div>
-                <div className="px-6 mt-16 pb-8">
-                  <div className="font-bold text-3xl text-center pb-1">
-                    Garima
-                  </div>
-                  <p className="text-gray-800 text-lg text-center">Founder</p>
-                  <p className="text-justify text-gray-600 text-base pt-3 font-normal">
-                    Mrs. Garima, the founder of Tapenabler, is a dedicated
-                    educator with a visionary spirit. Her journey began in the
-                    classroom, where she passionately nurtured young minds.
-                    However, it was during her tenure as a teacher that she
-                    keenly observed a critical gap in our education system – the
-                    inadequate provision for special education and early
-                    intervention. Interactions with students, parents, and
-                    caregivers exposed Mrs. Garima to the growing disparity in
-                    educational opportunities.
                   </p>
                 </div>
               </div>
