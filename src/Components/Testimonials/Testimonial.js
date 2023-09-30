@@ -21,7 +21,7 @@ export default function Testimonal() {
           isIntrinsicHeight={true}
           totalSlides={2}
         >
-          <h1 className="text-5xl font-bold xl:block hidden leading-tight text-gray-800">
+          <h1 className="text-center text-5xl font-bold xl:block hidden leading-tight text-gray-800">
             What our customers are
             <br />
             saying

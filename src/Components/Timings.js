@@ -17,7 +17,7 @@ export default function Timings() {
             color: "black",
             fontSize: "17px",
             fontWeight: "600",
-            marginLeft: "20px",
+            marginLeft: "30px",
           }}
           variant="small"
           color="white"
