@@ -10,7 +10,7 @@ export default function LandingPage() {
   return (
     <div>
       <Header2 />
-      <br />
+
       <About />
       <Services />
       <Founder />

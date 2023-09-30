@@ -17,3 +17,12 @@ hr{
     background: #D9CAB3;
     /* margin-left: 14vw; */
 }
+
+.rightcon{
+    margin-top: -15vw;
+}
+@media  (max-width : 770px) {
+    .rightcon{
+        margin-top: 0vw;
+    }
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Services() {
   return (
-    <div className="dark:bg-gray-900">
+    <div id="services" className="dark:bg-gray-900">
       <section className="mx-auto container py-20 ">
         <div className="flex justify-center items-center flex-col">
           <div className="lg:text-3xl md:text-5xl text-4xl font-black leading-10 text-center text-gray-800 dark:text-white">
@@ -25,13 +25,17 @@ export default function Services() {
                 </span>
               </div>
               <div className="text-gray-800 dark:text-white text-2xl font-semibold text-center">
-                <h2>Guidance & Support (C&T)</h2>
+                <h2>Guidance + Support - Counselling & Therapies (C&T)</h2>
               </div>
               <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center ">
-                <p style={{ textAlign: "justify" }}>
-                  we bring about the process of giving fruitful direction or
+                <p style={{ textAlign: "center" }}>
+                  We bring about the process of giving fruitful direction or
                   helpful suggestion regarding a decision or any future course
-                  of action.
+                  of action in order for the person to discover and develop
+                  his/her individual, educational, occupational, psychological
+                  and other such potentialities to be able to achieve an optimal
+                  level of personal happiness and social usefulness through
+                  various facilities being provided by us.
                 </p>
               </div>
             </div>
@@ -45,14 +49,19 @@ export default function Services() {
                 </span>
               </div>
               <div className="text-gray-800 dark:text-white text-2xl font-semibold text-center">
-                <h2>Early Child Intervention & Development (ECID)</h2>
+                <h2>
+                  Early Childhood Intervention, Development & Education (ECIDE)
+                </h2>
               </div>
               <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                <p style={{ textAlign: "justify" }}>
-                  we offer the education and care of young children by
+                <p style={{ textAlign: "center" }}>
+                  We offer the education and care of young children by
                   identifying and providing effective early support to those who
-                  are at risk of poor outcomes before the problems get any
-                  worse.
+                  are at risk of poor outcomes before the problems get any worse
+                  by working on a multitude of presenting issues, some common
+                  and relatively minor but others very serious in nature,
+                  potentially altering or significantly interfering with the
+                  normal growth and development of the young child.
                 </p>
               </div>
             </div>
@@ -69,11 +78,14 @@ export default function Services() {
                 <h2>Animal-Assisted Therapy, Activities & Education (AATAE)</h2>
               </div>
               <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                <p style={{ textAlign: "justify" }}>
-                  we offer animal-facilitated counselling, pet therapy, pet
-                  psychotherapy, pet-facilitated therapy, pet-facilitated
-                  psychotherapy, pet-mediated therapy, pet-oriented therapy,
-                  etc.
+                <p style={{ textAlign: "center" }}>
+                  Here, a student gets to engage as a participant by spending
+                  time with an animal during a specific goal-oriented therapy
+                  session which can be either physical, emotional, educational
+                  and/or psychological among others. It is further a health
+                  intervention, meant to improve physical, social, emotional
+                  and/or cognitive functioning of the participant with animals
+                  as an integral part of the therapy.
                 </p>
               </div>
             </div>
@@ -90,11 +102,15 @@ export default function Services() {
                 <h2>Enabling Special Needs (ESN)</h2>
               </div>
               <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                <p style={{ textAlign: "justify" }}>
-                  we bring about a variety of education for the students who
-                  differ socially, mentally and/or physically from the others to
-                  such an extent that they may require
-                  modifications/accommodations of commonly used practices.
+                <p style={{ textAlign: "center" }}>
+                  Formally known as Special Education and Special Needs
+                  Education, we bring about a variety of education for the
+                  students who differ socially, mentally and/or physically from
+                  the others to such an extent that they may require
+                  modifications/accommodations of commonly used practices by
+                  catering the unique needs of a student with a disability
+                  and/or disorder, through our various and flexible teaching
+                  holistic approaches.
                 </p>
               </div>
             </div>
@@ -111,11 +127,14 @@ export default function Services() {
                 <h2>Tailor-Made Instructional Learning Material (T-ILM)</h2>
               </div>
               <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                <p style={{ textAlign: "justify" }}>
+                <p style={{ textAlign: "center" }}>
+                  Here, we customize the Teaching Learning Materials (TLM),
                   whether animate and inanimate objects in relation to human and
                   non-human resources that a professional may use in teaching
                   and learning situations to help achieve desired learning
-                  objectives for the students.
+                  objectives for the students. These include the readings,
+                  textbooks, worksheets, multimedia components and other related
+                  resources in a given course of study.
                 </p>
               </div>
             </div>
@@ -129,15 +148,17 @@ export default function Services() {
                 </span>
               </div>
               <div className="text-gray-800 dark:text-white text-2xl font-semibold text-center">
-                <h2>Drug & Alcohol Addiction</h2>
+                <h2>Alcohol & Drug Addiction (ADA)</h2>
               </div>
               <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                <p style={{ textAlign: "justify" }}>
-                  This is for individuals, alongwith their family and friends,
-                  who are looking for options to address alcohol and drug
-                  related problems as our therapy is intended as a resource to
-                  offer various behavioural treatments that are aimed at
-                  changing specific behaviour through counselling.
+                <p style={{ textAlign: "center" }}>
+                  This is for the individuals, along with their family and
+                  friends, who are looking for options to address alcohol and
+                  drug related problems as our therapy is intended as a resource
+                  to offer various behavioural treatments that are aimed at
+                  changing a specific behaviour through counselling which are
+                  further led by professionals and supported by studies showing
+                  they can be beneficial.
                 </p>
               </div>
             </div>

@@ -1,0 +1,16 @@
+.formdiv{
+    margin-top: -15vw;
+    margin-left: 57vw;
+    position: relative;
+    z-index: 10000000000;
+}
+.subdiv{
+    box-shadow: 0px 0px 19px 4px #dcdbdb;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+@media screen and (max-width : 1080px) {
+    .formdiv{
+        display: none;
+    }
+}

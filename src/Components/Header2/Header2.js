@@ -1,13 +1,18 @@
 import react, { useState } from "react";
 import logo from "../../assets/logo.png";
+
 import collage from "../../assets/collagenew.png";
 import "./Header2.css";
+import Quickform from "../Quickform/Quickform";
+import Timings from "../Timings";
 
 const Header2 = () => {
   const [menu, setMenu] = useState(false);
   return (
     <div>
       <section>
+        {" "}
+        <Timings />
         <div className="w-full relative pb-10 px-6 xl:px-0">
           <img
             className="absolute w-full inset-0 h-full object-cover object-center"
@@ -79,7 +84,7 @@ const Header2 = () => {
             role="navigation"
             aria-label="Main"
             tabIndex="0"
-            className="hidden relative z-10 w-full lg:flex justify-between items-center p-16"
+            className="hidden relative z-10 w-full lg:flex justify-between items-center p-12"
           >
             <div className="w-96">
               <a
@@ -93,39 +98,31 @@ const Header2 = () => {
             <div className="w-5/6">
               <div className="flex items-center justify-end">
                 <ul className="text-gray-800 lg:space-x-8 flex items-center leading-none">
-                  <li className="font-semibold navlink ">
+                  {/* <li className="font-semibold navlink ">
                     <a className="text-lg" href="#">
                       Home
                     </a>
-                  </li>
+                  </li> */}
                   <li className="ml-4 font-semibold  navlink">
-                    <a className=" text-lg" href="javascript:void(0)">
+                    <a className=" text-lg" href="#about">
                       About Us
                     </a>
                   </li>
                   <li className="ml-4 font-semibold navlink">
-                    <a className="text-lg" href="javascript:void(0)">
+                    <a className="text-lg" href="#services">
                       Services
                     </a>
                   </li>
                   <li className="ml-4  font-semibold navlink">
                     <a
                       className="focus:text-#8E8D8D-500 text-lg"
-                      href="javascript:void(0)"
+                      href="#contact"
                     >
                       Contact Us
                     </a>
                   </li>
                 </ul>
-                <div className="pl-40">
-                  {/* <button
-                    role="button"
-                    aria-label="live chat"
-                    className="focus:bg-indigo-600 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-indigo-700 hover:bg-indigo-600 text-white px-6 py-2 font-semibold rounded focus:outline-none"
-                  >
-                    Live Chat
-                  </button> */}
-                </div>
+                <div className="pl-40"></div>
               </div>
             </div>
           </nav>
@@ -140,18 +137,18 @@ const Header2 = () => {
                 alt="people smiling"
               />
             </div>
-            <div role="contentinfo" className="w-full lg:w-1/2 h-full">
+            <div role="contentinfo" className="w-full lg:w-1/2 h-full rightcon">
               <p
                 style={{ color: "#8E8D8D" }}
                 tabIndex="0"
-                className="text-3xl mb-4 font-bold"
+                className="text-2xl mb-2 font-bold"
               >
                 TapEnabler -
               </p>
               <h1
                 style={{ color: "#212121" }}
                 tabIndex="0"
-                className="text-4xl lg:text-6xl font-black mb-4"
+                className="text-4xl lg:text-4xl font-black mb-3"
               >
                 Let's Facilitate!
               </h1>
@@ -160,77 +157,35 @@ const Header2 = () => {
               <p
                 style={{ color: "#4e4e4e" }}
                 tabIndex="0"
-                className="font-regular mb-8 font-bold text-lg"
+                className="font-regular mb-4 font-bold text-lg"
               >
                 Tapping to your Needs through our Enablers <br />
                 <span style={{ color: "#8E8D8D" }}>
                   Let's Tap to Enable You!
                 </span>
               </p>
-
-              <div className="bg-white lg:mt-16 py-4 px-4 flex flex-col sm:flex-row justify-start sm:justify-between items-start sm:items-center shadow-lg rounded-lg headlast ">
+              <div className="bg-white py-2 px-4 flex flex-col sm:flex-row justify-start sm:justify-evenly items-center sm:items-center shadow-lg rounded-lg headlast ">
                 <div className="py-2">
                   <p
                     style={{ color: "#F6F6F6" }}
-                    className="text-xl font-bold tracking-wider"
+                    className="text-lg font-bold tracking-wider"
                   >
                     Early Intervention | Special Education | Counselling &
                     Therapies
+                    <br />
+                    <span style={{ color: "rgb(255 220 167)" }}>
+                      {" "}
+                      Now Available Both Online & Offline
+                    </span>
                   </p>
-                  {/* <div className="flex items-center">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg4.svg"
-                      alt="icon"
-                    />
-                    <input
-                      aria-label="Doctor name"
-                      className="w-24 xl:w-32 leading-none tracking-normal text-gray-800 ml-2.5 placeholder-black"
-                      placeholder="Doctor Name"
-                    />
-                  </div> */}
-                  {/* <div className="flex items-center sm:mx-4 xl:mx-14 my-6 lg:my-0">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg5.svg"
-                      alt="icon"
-                    />
-                    <input
-                      aria-label="zip code"
-                      className="w-24 xl:w-32 leading-none tracking-normal text-gray-800 ml-2.5 placeholder-black"
-                      placeholder="Zip code"
-                    />
-                  </div> */}
-                  {/* <div className="flex items-center">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg6.svg"
-                      alt="icon"
-                    />
-                    <input
-                      aria-label="insurance"
-                      className="w-24 xl:w-32 leading-none tracking-normal text-gray-800 ml-2.5 placeholder-black"
-                      placeholder="Insurance"
-                    />
-                  </div> */}
                 </div>
-                {/* <button
-                  role="button"
-                  aria-label="search"
-                  className="focus:bg-indigo-700 focus:ring-indigo-700 focus:ring-2 focus:ring-offset-2 text-white bg-indigo-600 hover:bg-indigo-700 mt-4 sm:mt-0 p-3 lg:-ml-8 rounded w-full sm:w-auto relative"
-                >
-                  <img
-                    className="absolute right-0 mr-2 sm:mr-auto sm:relative icon icon-tabler icon-tabler-search cursor-pointer"
-                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg7.svg"
-                    alt="search"
-                  />
-                  <input
-                    aria-label="search"
-                    className="sm:hidden border-b border-gray-300 w-full bg-transparent pr-6"
-                  />
-                </button> */}
-              </div>
+              </div>{" "}
+              {/* quick form */}
             </div>
-          </div>
-        </div>
+          </div>{" "}
+        </div>{" "}
       </section>
+      <Quickform />
 
       <style>
         {`
