@@ -116,7 +116,7 @@ const Header2 = () => {
                   <li className="ml-4  font-semibold navlink">
                     <a
                       className="focus:text-#8E8D8D-500 text-lg"
-                      href="#contact"
+                      href="#contactus"
                     >
                       Contact Us
                     </a>
@@ -141,14 +141,14 @@ const Header2 = () => {
               <p
                 style={{ color: "#8E8D8D" }}
                 tabIndex="0"
-                className="text-2xl mb-2 font-bold"
+                className="text-2xl mb-2 font-bold text-center"
               >
                 TapEnabler -
               </p>
               <h1
                 style={{ color: "#212121" }}
                 tabIndex="0"
-                className="text-4xl lg:text-4xl font-black mb-3"
+                className="text-4xl lg:text-4xl font-black mb-3 text-center"
               >
                 Let's Facilitate!
               </h1>
@@ -157,7 +157,7 @@ const Header2 = () => {
               <p
                 style={{ color: "#4e4e4e" }}
                 tabIndex="0"
-                className="font-regular mb-4 font-bold text-lg"
+                className="font-regular mb-4 font-bold text-lg text-center"
               >
                 Tapping to your Needs through our Enablers <br />
                 <span style={{ color: "#8E8D8D" }}>
@@ -168,7 +168,7 @@ const Header2 = () => {
                 <div className="py-2">
                   <p
                     style={{ color: "#F6F6F6" }}
-                    className="text-lg font-bold tracking-wider"
+                    className="text-lg font-bold tracking-wider text-center"
                   >
                     Early Intervention | Special Education | Counselling &
                     Therapies

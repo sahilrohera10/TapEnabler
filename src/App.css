@@ -4,10 +4,10 @@
 
 @import "tailwindcss/utilities";
 
-.App {
+/* .App {
   text-align: center;
 
-}
+} */
 html{
   scroll-behavior: smooth;
 }
@@ -26,12 +26,31 @@ html{
 
 .chipc{
   position: absolute;
-  z-index: 1000000000;
+  z-index: 1;
   width: 350px;
   height: 6vh;
   right: 12vw;
   background-color: #D9CAB3
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #6D9886;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 1px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
 @media (max-width : 770px) {
   .chipc{
     display: none;

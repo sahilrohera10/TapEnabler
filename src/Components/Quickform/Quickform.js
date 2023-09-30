@@ -59,7 +59,7 @@ export default function Quickform() {
           <div className="md:w-1/2 md:pl-2 mb-2">
             <input
               className="bg-opacity-70 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline inpbox"
-              id="lastName"
+              id="phoneNumber"
               type="text"
               placeholder="Ph. Number"
             />
@@ -76,7 +76,7 @@ export default function Quickform() {
         <div className="mb-2">
           <input
             className="bg-opacity-70 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline inpemail"
-            id="email"
+            id="location"
             type="text"
             placeholder="Location"
           />

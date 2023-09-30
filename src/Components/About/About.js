@@ -1,16 +1,17 @@
 import React from "react";
 import "./About.css";
 import img from "../../assets/aboutimg.jpg";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <div
       id="about"
-      className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4"
+      className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4 text-center"
     >
       <p
         style={{ color: "#212121" }}
-        className="font-bold text-3xl leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-4"
+        className="text-center font-bold text-3xl leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-4"
       >
         About Us
       </p>
@@ -23,14 +24,14 @@ const About = () => {
 
           <h2
             style={{ color: "#212121" }}
-            className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9"
+            className=" text-center w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9"
           >
             Pioneering Empowerment through Specialized Education and Therapeutic
             Expertise
           </h2>
           <p
             style={{ color: "#8E8D8D" }}
-            className="font-semibold leading-6  mt-6 text-lg"
+            className="text-center font-semibold leading-6  mt-6 text-lg"
           >
             At Tapenabler, we believe in the boundless potential of every
             individual, especially those with unique abilities and/or special
@@ -46,8 +47,12 @@ const About = () => {
             <li className="list">Problem-Centred</li>
           </ul>
           <br />
-          <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-            <span>Learn More</span>
+
+          <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center ">
+            <Link>
+              {" "}
+              <span>Learn More</span>
+            </Link>
           </button>
         </div>
         <div className="w-full lg:w-6/12">
