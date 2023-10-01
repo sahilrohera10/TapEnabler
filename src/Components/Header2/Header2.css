@@ -21,7 +21,7 @@ hr{
 .rightcon{
     margin-top: -15vw;
 }
-@media  (max-width : 770px) {
+@media  (max-width : 1025px) {
     .rightcon{
         margin-top: 0vw;
     }

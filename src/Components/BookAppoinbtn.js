@@ -33,7 +33,22 @@ const service = [
 ];
 const mode = ["Online", "Offline"];
 
-const slots = ["10am - 11am", "12pm - 1pm"];
+const slots = [
+  "10am - 10:30am",
+  "10:30am - 11am",
+  "11am - 11:30am",
+  "11:30am - 12pm",
+  "12pm - 12:30pm",
+  "12:30pm - 1pm",
+  "1pm - 1:30pm",
+  "1:30pm - 2pm",
+  "2pm - 2:30pm",
+  "2:30pm - 3pm",
+  "3pm - 3:30pm",
+  "3:30pm - 4pm",
+  "4pm - 4:30pm",
+  "4:30pm - 5pm",
+];
 
 function BookAppoinbtn() {
   const [open, setOpen] = React.useState(false);
@@ -95,7 +110,7 @@ function BookAppoinbtn() {
                 style={{ marginBottom: "10px", width: "16rem" }}
                 required
                 id="outlined-basic"
-                label="Locattion"
+                label="Location"
                 variant="outlined"
               />
               <br />

@@ -52,11 +52,11 @@ export default function ContactUs() {
                       >
                         Contact
                       </h2>
-                      <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
+                      {/* <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
                         +91 99994 33409 (Garima Walia Rai)
-                      </h2>
+                      </h2> */}
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        +91 80766 17064 (Fraha Baig)
+                        +91 80766 17064 (Farha Baig)
                       </h2>
                     </div>
                     <div className="mt-4 md:mt-8">
