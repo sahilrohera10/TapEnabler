@@ -3,10 +3,10 @@ import Header2 from "../Components/Header2/Header2";
 import About from "../Components/About/About";
 import Services from "../Components/Services/Services";
 import Founder from "../Components/Founder/Founder";
-import Blogs from "../Components/Blogs/Blogs";
-import Testimonial from "../Components/Testimonials/Testimonial";
+import OurBlogs from "../Components/OurBlogs/OurBlogs";
 import ContactUs from "../Components/ContactUs/ContactUs";
 import Footer from "../Components/Footer/Footer";
+import Testimonials from "../Components/Testimonials/Testimonials";
 
 export default function LandingPage() {
   return (
@@ -14,12 +14,13 @@ export default function LandingPage() {
       <Header2 />
 
       <About />
+      <br />
       <Services />
       <Founder />
       <br />
       <br />
-      <Blogs />
-      <Testimonial />
+      <OurBlogs />
+      <Testimonials />
       <ContactUs />
       <Footer />
     </div>

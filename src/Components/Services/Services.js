@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ServiceModal from "../ServiceModal";
+import { motion } from "framer-motion";
 
 const CandT = ["Counsellings", "Therapies"];
 const ECI = [
@@ -86,13 +87,23 @@ export default function Services() {
             <div className="lg:text-3xl md:text-5xl text-4xl font-black leading-10 text-center text-gray-800 dark:text-white">
               <h1
                 className="pb-4 text-3xl font-bold "
-                style={{ color: "#212121" }}
+                style={{
+                  color: "#212121",
+                  borderBottom: "5px solid #D9CAB3",
+                  borderRadius: "20px",
+                }}
               >
                 Our Services
               </h1>
-              <hr style={{ width: "10vw", marginLeft: "1vw" }} />
+              {/* <hr style={{ width: "10vw", marginLeft: "1vw" }} /> */}
             </div>
-            <div className="pt-14 grid lg:grid-cols-3 md:grid-cols-2 justify-center items-center xl:gap-y-16 gap-y-20 gap-x-16 lg:gap-x-20 xl:gap-x-0 lg:px-10 xl:px-0">
+            <motion.div
+              viewport={{ once: false }}
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ type: "easeIn", duration: 1, delay: 0.15 }}
+              className="pt-14 grid lg:grid-cols-3 md:grid-cols-2 justify-center items-center xl:gap-y-16 gap-y-20 gap-x-16 lg:gap-x-20 xl:gap-x-0 lg:px-10 xl:px-0"
+            >
               <div
                 onClick={() =>
                   handleOpen(
@@ -285,7 +296,7 @@ export default function Services() {
                   </p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </section>
       </div>

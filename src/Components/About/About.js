@@ -2,23 +2,38 @@ import React from "react";
 import "./About.css";
 import img from "../../assets/aboutimg.jpg";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <div
       id="about"
-      className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4 text-center"
+      className="2xl:container 2xl:mx-auto lg:py-10 lg:px-20 md:py-12 md:px-6 py-9 px-4 text-center"
     >
-      <p
-        style={{ color: "#212121" }}
-        className="text-center font-bold text-3xl leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-4"
-      >
-        About Us
-      </p>
-      <hr style={{ width: "7vw", marginLeft: "40.5vw" }} />
+      <div className="lg:text-3xl md:text-5xl text-4xl font-black leading-10 text-center text-gray-800 dark:text-white">
+        <h1
+          className="pb-4 text-3xl font-bold "
+          style={{
+            color: "#212121",
+            borderBottom: "5px solid #D9CAB3",
+            borderRadius: "20px",
+            margin: "auto",
+            width: "10rem",
+          }}
+        >
+          About Us
+        </h1>
+      </div>
+
       <br />
 
-      <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
+      <motion.div
+        viewport={{ once: false }}
+        initial={{ opacity: 0, x: -90 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ type: "easeIn", duration: 1, delay: 0.15 }}
+        className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12"
+      >
         <div className="w-full lg:w-6/12">
           <br />
 
@@ -72,7 +87,7 @@ const About = () => {
             alt="people discussing on board"
           />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

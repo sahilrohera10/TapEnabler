@@ -146,13 +146,19 @@ const Header2 = () => {
                 TapEnabler -
               </p>
               <h1
-                style={{ color: "#212121" }}
+                style={{
+                  color: "#212121",
+                  borderBottom: "5px solid #D9CAB3",
+                  borderRadius: "20px",
+                  width: "18rem",
+                  margin: "auto",
+                }}
                 tabIndex="0"
-                className="text-4xl lg:text-4xl font-black mb-3 text-center"
+                className="pb-2 text-4xl lg:text-4xl font-black mb-3 text-center"
               >
                 Let's Facilitate!
               </h1>
-              <hr style={{ marginLeft: "14vw" }} />
+              {/* <hr style={{ marginLeft: "14vw" }} /> */}
               <br />
               <p
                 style={{ color: "#4e4e4e" }}
