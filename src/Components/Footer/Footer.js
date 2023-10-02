@@ -55,24 +55,31 @@ function Footer() {
                   Services
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Counselling & Therapies</a>
-                </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Early Childhood Intervention</a>
-                </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Animal-Assisted Therapy</a>
-                </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Enabling Special Needs</a>
-                </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">
-                    Tailor-Made Instructional Learning Material{" "}
+                  <a href="#services">
+                    Guidance + Support - Counselling & Therapies (C&T)
                   </a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Alcohol & Drug Addiction</a>
+                  <a href="#services">
+                    Early Childhood Intervention, Development & Education
+                    (ECIDE)
+                  </a>
+                </li>
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                  <a href="#services">
+                    Animal-Assisted Therapy, Activities & Education (AATAE)
+                  </a>
+                </li>
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                  <a href="#services">Enabling Special Needs (ESN)</a>
+                </li>
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                  <a href="#services">
+                    Tailor-Made Instructional Learning Material (T-ILM){" "}
+                  </a>
+                </li>
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                  <a href="#services">Alcohol & Drug Addiction (ADA)</a>
                 </li>
               </ul>
             </div>

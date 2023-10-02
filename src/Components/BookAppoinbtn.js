@@ -34,20 +34,20 @@ const service = [
 const mode = ["Online", "Offline"];
 
 const slots = [
-  "10am - 10:30am",
-  "10:30am - 11am",
-  "11am - 11:30am",
-  "11:30am - 12pm",
-  "12pm - 12:30pm",
-  "12:30pm - 1pm",
-  "1pm - 1:30pm",
-  "1:30pm - 2pm",
-  "2pm - 2:30pm",
-  "2:30pm - 3pm",
-  "3pm - 3:30pm",
-  "3:30pm - 4pm",
-  "4pm - 4:30pm",
-  "4:30pm - 5pm",
+  "10:00am - 10:30am",
+  "10:30am - 11:00am",
+  "11:00am - 11:30am",
+  "11:30am - 12:00pm",
+  "12:00pm - 12:30pm",
+  "12:30pm - 1:00pm",
+  "1:00pm - 1:30pm",
+  "1:30pm - 2:00pm",
+  "2:00pm - 2:30pm",
+  "2:30pm - 3:00pm",
+  "3:00pm - 3:30pm",
+  "3:30pm - 4:00pm",
+  "4:00pm - 4:30pm",
+  "4:30pm - 5:00pm",
 ];
 
 function BookAppoinbtn() {
