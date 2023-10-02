@@ -30,10 +30,11 @@ body{
 .chipc{
   position: absolute;
   z-index: 1;
-  width: 350px;
+  width: 100%;
   height: 6vh;
-  right: 12vw;
-  background-color: #D9CAB3
+  /* right: 12vw; */
+  background-color: #D9CAB3;
+  
 }
 
 .grid-container {

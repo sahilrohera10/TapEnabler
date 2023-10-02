@@ -29,31 +29,31 @@ const Header2 = () => {
                   id="list"
                   className={`${
                     menu ? "" : "hidden"
-                  } p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16`}
+                  } p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-24 md:mt-28`}
                 >
-                  <li className="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
-                    <a href="javascript:void(0)">
-                      <span className="ml-2 font-bold">Home</span>
-                    </a>
-                  </li>
                   <li
+                    onClick={() => setMenu(!menu)}
                     className="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center"
                     onclick="dropdownHandler(this)"
                   >
-                    <a href="javascript:void(0)">
+                    <a href="#about">
                       <span className="ml-2 font-bold">About Us</span>
                     </a>
                   </li>
-                  <li className="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
-                    <a href="javascript:void(0)">
+                  <li
+                    onClick={() => setMenu(!menu)}
+                    className="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none"
+                  >
+                    <a href="#services">
                       <span className="ml-2 font-bold">Services</span>
                     </a>
                   </li>
                   <li
+                    onClick={() => setMenu(!menu)}
                     className="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center"
                     onclick="dropdownHandler(this)"
                   >
-                    <a href="javascript:void(0)">
+                    <a href="#contactus">
                       <span className="ml-2 font-bold">Contact Us</span>
                     </a>
                   </li>
