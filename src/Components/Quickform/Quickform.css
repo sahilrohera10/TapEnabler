@@ -9,6 +9,12 @@
     border-radius: 20px;
     border: 2px solid black;
 }
+
+@media screen and (max-width : 1280px) {
+    .formdiv{
+        margin-top: -12vw;
+    }
+}
 @media screen and (max-width : 1080px) {
     .formdiv{
         display: none;
