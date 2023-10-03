@@ -16,7 +16,7 @@ export default function Timings() {
           color="white"
           className=" capitalize leading-none"
         >
-          Timings : Morning 9.30am - Evening 6pm (IST) || Monday to Sunday
+          Timings : Morning 9.30am - Evening 6:00pm (IST) || Monday to Sunday
           (Wednesday OFF)
         </Typography>
       }
