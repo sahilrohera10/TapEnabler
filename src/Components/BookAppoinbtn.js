@@ -116,7 +116,7 @@ function BookAppoinbtn() {
               <br />
               <Selector title="Select a Service" options={service} />
               <br />
-              <Selector title="Select Time slot" options={slots} />
+              <Selector title="Select Time Slot" options={slots} />
               <br />
               <Selector title="Select Mode" options={mode} />
             </Typography>
