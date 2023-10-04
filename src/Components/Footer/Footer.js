@@ -56,7 +56,7 @@ function Footer() {
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
                   <a href="#services">
-                    Guidance + Support - Counselling & Therapies (C&T)
+                    Guidance + Support - Counselling & Therapies <br /> (C&T)
                   </a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
@@ -67,11 +67,14 @@ function Footer() {
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
                   <a href="#services">
-                    Animal-Assisted Therapy, Activities & Education (AATAE)
+                    Animal-Assisted Therapy, Activities & Education <br />{" "}
+                    (AATAE)
                   </a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="#services">Enabling Special Needs (ESN)</a>
+                  <a href="#services">
+                    Enabling Special Needs <br /> (ESN)
+                  </a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
                   <a href="#services">
@@ -79,7 +82,9 @@ function Footer() {
                   </a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="#services">Alcohol & Drug Addiction (ADA)</a>
+                  <a href="#services">
+                    Alcohol & Drug Addiction <br /> (ADA)
+                  </a>
                 </li>
               </ul>
             </div>

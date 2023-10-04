@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactUs.css";
+import map from "../../assets/map.png";
 export default function ContactUs() {
   return (
     <>
@@ -70,11 +71,7 @@ export default function ContactUs() {
                         tapenabler@gmail.com
                       </h2>
                     </div>
-                    <img
-                      className="mapimg"
-                      src="https://developers.google.com/static/maps/images/landing/hero_maps_static_api.png"
-                      alt=""
-                    />
+                    <img className="mapimg" src={map} alt="" />
                   </div>
                 </div>
               </div>
