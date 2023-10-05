@@ -4,7 +4,6 @@ import LandingPage from "./Pages/LandingPage";
 import CustomCursor from "./Components/CustomCursor";
 import BookAppoinbtn from "./Components/BookAppoinbtn";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AboutUsPage from "./Pages/AboutUsPage";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />}></Route>
-          <Route path="/aboutus" element={<AboutUsPage />}></Route>
         </Routes>
       </BrowserRouter>
 

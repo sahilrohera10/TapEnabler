@@ -61,16 +61,16 @@ const ESN = [
   "Et cetera",
 ];
 
-const TILM = ["Learning Matarial", "Below 18", "Above 18"];
+const TILM = ["Learning Material", "Below 18", "Above 18"];
 const ADA = ["Counsellings", "Therapies"];
 
 export default function Services() {
-  const [open, setOpen] = useState();
+  const [openmodal, setOpenmodal] = useState(false);
   const [data, setData] = useState();
   const [name, setName] = useState();
 
   const handleOpen = (d, name) => {
-    setOpen(true);
+    setOpenmodal(true);
     if (d === "ECI") setData(ECI);
     if (d === "CandT") setData(CandT);
     if (d === "ESN") setData(ESN);
@@ -116,7 +116,7 @@ export default function Services() {
                 <div className="mb-6">
                   <span
                     style={{ fontSize: "35px", color: "#6D9886" }}
-                    class="material-symbols-outlined"
+                    className="material-symbols-outlined"
                   >
                     volunteer_activism
                   </span>
@@ -148,7 +148,7 @@ export default function Services() {
                 <div className="mb-6">
                   <span
                     style={{ fontSize: "35px", color: "#6D9886" }}
-                    class="material-symbols-outlined"
+                    className="material-symbols-outlined"
                   >
                     child_care
                   </span>
@@ -171,19 +171,11 @@ export default function Services() {
                   </p>
                 </div>
               </div>
-              <div
-                // onClick={() =>
-                //   handleOpen(
-                //     "AAT",
-                //     "Animal-Assisted Therapy, Activities & Education (AATAE)"
-                //   )
-                // }
-                className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col"
-              >
+              <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
                 <div className="mb-6">
                   <span
                     style={{ fontSize: "35px", color: "#6D9886" }}
-                    class="material-symbols-outlined"
+                    className="material-symbols-outlined"
                   >
                     pets
                   </span>
@@ -214,7 +206,7 @@ export default function Services() {
                 <div className="mb-6">
                   <span
                     style={{ fontSize: "35px", color: "#6D9886" }}
-                    class="material-symbols-outlined"
+                    className="material-symbols-outlined"
                   >
                     school
                   </span>
@@ -247,7 +239,7 @@ export default function Services() {
                 <div className="mb-6">
                   <span
                     style={{ fontSize: "35px", color: "#6D9886" }}
-                    class="material-symbols-outlined"
+                    className="material-symbols-outlined"
                   >
                     library_books
                   </span>
@@ -276,7 +268,7 @@ export default function Services() {
                 <div className="mb-6">
                   <span
                     style={{ fontSize: "35px", color: "#6D9886" }}
-                    class="material-symbols-outlined"
+                    className="material-symbols-outlined"
                   >
                     liquor
                   </span>
@@ -301,7 +293,12 @@ export default function Services() {
         </section>
       </div>
 
-      <ServiceModal open={open} data={data} name={name} setOpen={setOpen} />
+      <ServiceModal
+        openmodal={openmodal}
+        data={data}
+        name={name}
+        setOpenmodal={setOpenmodal()}
+      />
     </>
   );
 }

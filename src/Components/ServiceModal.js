@@ -20,9 +20,9 @@ const style = {
 };
 
 export default function ServiceModal(props) {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => props.setOpen(false);
+  const [openmod, setOpenmod] = React.useState(false);
+  const handleOpenmod = () => setOpenmod(true);
+  const handleClosemod = () => props.setOpenmodal(false);
   const [newdata, setNewdata] = React.useState();
   const [name, setName] = React.useState();
 
@@ -56,8 +56,8 @@ export default function ServiceModal(props) {
       <div>
         {/* <Button onClick={handleOpen}>Open modal</Button> */}
         <Modal
-          open={props.open}
-          onClose={handleClose}
+          open={props.openmodal}
+          onClose={handleClosemod}
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >
@@ -71,8 +71,9 @@ export default function ServiceModal(props) {
               {props.name}
             </Typography>
             <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-              <div class="grid-container">
-                {data && data.map((d) => <div class="grid-item"> {d} </div>)}
+              <div className="grid-container">
+                {data &&
+                  data.map((d) => <div className="grid-item"> {d} </div>)}
               </div>
             </Typography>
           </Box>
@@ -81,7 +82,7 @@ export default function ServiceModal(props) {
     );
   else {
     const handleOpenAgain = (name) => {
-      handleOpen(true);
+      handleOpenmod(true);
       if (name === "Counsellings") setNewdata(Counselling);
       if (name === "Therapies") setNewdata(therapies);
       setName(name);
@@ -91,8 +92,8 @@ export default function ServiceModal(props) {
         <div>
           {/* <Button onClick={handleOpen}>Open modal</Button> */}
           <Modal
-            open={props.open}
-            onClose={handleClose}
+            open={props.openmodal}
+            onClose={handleClosemod}
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
           >
@@ -106,17 +107,17 @@ export default function ServiceModal(props) {
                 {props.name} new
               </Typography>
               <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                <div class="grid-container">
+                <div className="grid-container">
                   <div
                     onClick={() => handleOpenAgain(data[0])}
-                    class="grid-item"
+                    className="grid-item"
                   >
                     {" "}
                     {data[0]}{" "}
                   </div>
                   <div
                     onClick={() => handleOpenAgain(data[1])}
-                    class="grid-item"
+                    className="grid-item"
                   >
                     {" "}
                     {data[1]}{" "}
@@ -127,10 +128,10 @@ export default function ServiceModal(props) {
           </Modal>
         </div>
         <ServiceModal
-          open={open}
+          openmodal={openmod}
           data={newdata}
           name={name}
-          setOpen={setOpen}
+          setOpenmodal={setOpenmod}
         />
       </>
     );
