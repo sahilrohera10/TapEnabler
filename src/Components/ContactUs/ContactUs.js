@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./ContactUs.css";
+import map from "../../assets/map.png";
 import emailjs from "@emailjs/browser";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
@@ -133,10 +134,10 @@ export default function ContactUs() {
                         Address
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        AD Office Spaces, SCO 2, Chaura Bazar 2, Next to Best
-                        Price and Opposite Cosmo Mall, Ambala Chandigarh
-                        Expressway, Opposite Bristol Hotel, Zirakpur, Punjab
-                        140603, India
+                        AD Office Spaces, SCO 2, Chaura Bazar 2, 102 cabine, 1st
+                        floor, Next to Best Price and Opposite Cosmo Mall,
+                        Ambala Chandigarh Expressway, Opposite Bristol Hotel,
+                        Zirakpur, Punjab 140603, India
                       </h2>
                     </div>
                     <div className="mt-4 md:mt-8">
@@ -146,12 +147,10 @@ export default function ContactUs() {
                       >
                         Contact
                       </h2>
-                      {/* <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        +91 99994 33409 (Garima Walia Rai)
-                      </h2> */}
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        +91 80766 17064 (Farha Baig)
+                        +91 78144 72221
                       </h2>
+                      <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2"></h2>
                     </div>
                     <div className="mt-4 md:mt-8">
                       <h2
@@ -164,11 +163,7 @@ export default function ContactUs() {
                         tapenabler@gmail.com
                       </h2>
                     </div>
-                    <img
-                      className="mapimg"
-                      src="https://developers.google.com/static/maps/images/landing/hero_maps_static_api.png"
-                      alt=""
-                    />
+                    <img className="mapimg" src={map} alt="" />
                   </div>
                 </div>
               </div>

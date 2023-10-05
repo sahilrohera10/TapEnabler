@@ -67,10 +67,10 @@ export default function Testimonials() {
                       {/*   */}
                       <div className="py-4 px-6">
                         <h1 className="text-2xl font-semibold text-gray-800">
-                          Aatma Ram
+                          Komal Sharma
                         </h1>
                         <p className="py-2 text-lg text-gray-700">
-                          TapEnabler's counseling and therapies have been a
+                          TapEnabler's counselling and therapies have been a
                           lifeline for me. Their compassionate and skilled
                           therapists helped me navigate through difficult times.
                           I feel more resilient and empowered thanks to their
@@ -89,7 +89,7 @@ export default function Testimonials() {
 
                       <div className="py-4 px-6">
                         <h1 className="text-2xl font-semibold text-gray-800">
-                          Ram
+                          Abhishek Mishra
                         </h1>
                         <p className="py-2 text-lg text-gray-700">
                           As a parent, TapEnabler's ECIDE program has been a
@@ -111,7 +111,7 @@ export default function Testimonials() {
 
                       <div className="py-4 px-6">
                         <h1 className="text-2xl font-semibold text-gray-800">
-                          Anshuman
+                          Anshuman Tyagi
                         </h1>
                         <p className="py-2 text-lg text-gray-700">
                           TapEnabler's ESN services have made a world of
@@ -133,7 +133,7 @@ export default function Testimonials() {
 
                       <div className="py-4 px-6">
                         <h1 className="text-2xl font-semibold text-gray-800">
-                          Aatma Ram
+                          Savita Bajaj
                         </h1>
                         <p className="py-2 text-lg text-gray-700">
                           TapEnabler's T-ILM resources are exceptional. They've
@@ -155,14 +155,14 @@ export default function Testimonials() {
 
                       <div className="py-4 px-6">
                         <h1 className="text-2xl font-semibold text-gray-800">
-                          Aatma Ram
+                          Harish Singh
                         </h1>
                         <p className="py-2 text-lg text-gray-700">
-                          TapEnabler's T-ILM resources are exceptional. They've
-                          tailored learning materials to match my learning
-                          style, making education accessible and enjoyable.
-                          Learning has never been this personalized and
-                          effective.
+                          She is a kind of teacher who really knows how to deal
+                          with children be it a regular or special needs. I am
+                          happy to see the way she treated both of my kids.
+                          Thank you, dear. I surely recommend to go with
+                          TapEnabler.
                         </p>
                       </div>
                     </div>
@@ -437,28 +437,6 @@ export default function Testimonials() {
                 </div>
               </Slider>
             </div>
-            {/* <ButtonNext
-              role="button"
-              aria-label="slide forward"
-              className="absolute z-30 right-0 mr-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
-              id="next"
-            >
-              <svg
-                width={8}
-                height={14}
-                viewBox="0 0 8 14"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1 1L7 7L1 13"
-                  stroke="black"
-                  strokeWidth={2}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </ButtonNext> */}
           </div>
         </CarouselProvider>
       </div>

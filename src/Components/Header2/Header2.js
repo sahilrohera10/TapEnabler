@@ -34,7 +34,6 @@ const Header2 = () => {
                   <li
                     onClick={() => setMenu(!menu)}
                     className="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center"
-                    onclick="dropdownHandler(this)"
                   >
                     <a href="#about">
                       <span className="ml-2 font-bold">About Us</span>
@@ -51,7 +50,6 @@ const Header2 = () => {
                   <li
                     onClick={() => setMenu(!menu)}
                     className="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center"
-                    onclick="dropdownHandler(this)"
                   >
                     <a href="#contactus">
                       <span className="ml-2 font-bold">Contact Us</span>
