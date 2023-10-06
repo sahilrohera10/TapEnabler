@@ -134,8 +134,8 @@ export default function ContactUs() {
                         Address
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        AD Office Spaces, SCO 2, Chaura Bazar 2, 102 cabine, 1st
-                        floor, Next to Best Price and Opposite Cosmo Mall,
+                        AD Office Spaces, SCO 2, Chaura Bazar 2, Cabin No. 102,
+                        1st Floor, Next to Best Price and Opposite Cosmo Mall,
                         Ambala Chandigarh Expressway, Opposite Bristol Hotel,
                         Zirakpur, Punjab 140603, India
                       </h2>

@@ -61,7 +61,7 @@ const ESN = [
   "Et cetera",
 ];
 
-const TILM = ["Learning Matarial", "Below 18", "Above 18"];
+const TILM = ["Learning Material", "Below 18", "Above 18"];
 const ADA = ["Counsellings", "Therapies"];
 
 export default function Services() {
@@ -188,22 +188,25 @@ export default function Services() {
                     pets
                   </span>
                 </div>
-                <div className="text-gray-800 dark:text-white text-2xl font-semibold text-center">
-                  <h2>
-                    Animal-Assisted Therapy, Activities & Education (AATAE)
-                  </h2>
-                </div>
-                <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                  <p style={{ textAlign: "center" }}>
-                    Here, a student gets to engage as a participant by spending
-                    time with an animal during a specific goal-oriented therapy
-                    session which can be either physical, emotional, educational
-                    and/or psychological among others. It is further a health
-                    intervention, meant to improve physical, social, emotional
-                    and/or cognitive functioning of the participant with animals
-                    as an integral part of the therapy.
-                  </p>
-                </div>
+                <a href="https://forms.gle/EGWWX5QHB3sPa4Mi7" target="_blank">
+                  <div className="text-gray-800 dark:text-white text-2xl font-semibold text-center">
+                    <h2>
+                      Animal-Assisted Therapy, Activities & Education (AATAE)
+                    </h2>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
+                    <p style={{ textAlign: "center" }}>
+                      Here, a student gets to engage as a participant by
+                      spending time with an animal during a specific
+                      goal-oriented therapy session which can be either
+                      physical, emotional, educational and/or psychological
+                      among others. It is further a health intervention, meant
+                      to improve physical, social, emotional and/or cognitive
+                      functioning of the participant with animals as an integral
+                      part of the therapy.
+                    </p>
+                  </div>
+                </a>
               </div>
               <div
                 onClick={() =>
