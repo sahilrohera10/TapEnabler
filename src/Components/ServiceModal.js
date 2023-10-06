@@ -26,6 +26,8 @@ export default function ServiceModal(props) {
   const [newdata, setNewdata] = React.useState();
   const [name, setName] = React.useState();
 
+  const link = "https://forms.gle/EGWWX5QHB3sPa4Mi7";
+
   const Counselling = [
     "Individual & Personal ",
     "Family & Relatives ",
@@ -72,7 +74,16 @@ export default function ServiceModal(props) {
             </Typography>
             <Typography id="modal-modal-description" sx={{ mt: 2 }}>
               <div class="grid-container">
-                {data && data.map((d) => <div class="grid-item"> {d} </div>)}
+                {data &&
+                  data.map((d) => (
+                    <div class="grid-item">
+                      {" "}
+                      <a href={link} target="_blank">
+                        {" "}
+                        {d}
+                      </a>{" "}
+                    </div>
+                  ))}
               </div>
             </Typography>
           </Box>
