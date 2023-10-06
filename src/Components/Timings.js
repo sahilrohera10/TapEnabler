@@ -16,8 +16,8 @@ export default function Timings() {
           color="white"
           className=" capitalize leading-none"
         >
-          Timings : Morning 9.30am - Evening 6pm (IST) || Monday to Sunday
-          (Wednesday OFF)
+          Timings : Morning 10:00am - Evening 5:00pm (IST) || Monday to Sunday
+          (Wednesday OFF) || Book your Appointment Now +91 78144 72221
         </Typography>
       }
       className="rounded-full py-1.5 chipc"

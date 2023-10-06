@@ -32,7 +32,7 @@ const About = () => {
         initial={{ opacity: 0, x: -90 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ type: "easeIn", duration: 1, delay: 0.15 }}
-        className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12"
+        className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12 justify-around"
       >
         <div className="w-full lg:w-6/12">
           <br />
@@ -62,15 +62,8 @@ const About = () => {
             <li className="list">Problem-Centred</li>
           </ul>
           <br />
-
-          <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center ">
-            <Link>
-              {" "}
-              <span>Learn More</span>
-            </Link>
-          </button>
         </div>
-        <div className="w-full lg:w-6/12">
+        <div className="w-full lg:w-2/5">
           <img
             className="lg:block hidden w-full abtimg"
             src={img}
@@ -88,6 +81,59 @@ const About = () => {
           />
         </div>
       </motion.div>
+      <div style={{ marginLeft: "5vw" }} className="relative mt-4">
+        <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
+          <div className="z-20 w-12 h-12 bg-gray-800 rounded-full flex justify-center items-center">
+            <span
+              style={{ color: "white" }}
+              className="material-symbols-outlined"
+            >
+              target
+            </span>
+          </div>
+
+          <div
+            style={{ marginLeft: "4vw" }}
+            className="z-20 w-12 h-12 bg-gray-800 rounded-full flex justify-center items-center"
+          >
+            <span
+              style={{ color: "white" }}
+              className="material-symbols-outlined"
+            >
+              visibility
+            </span>
+          </div>
+        </div>
+        <hr className="z-10 absolute top-2/4 w-2/5 bg-gray-200 abthr" />
+      </div>
+      <div
+        style={{ marginLeft: "5vw" }}
+        className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4"
+      >
+        <div>
+          <p className="font-semibold text-left lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">
+            Our Mission
+          </p>
+          <p className="font-normal text-left text-base leading-6 text-gray-600 mt-6">
+            Our core mission revolves around the enrichment and empowerment of
+            those extraordinary individuals through the provision of
+            cutting-edge therapeutic solutions. Tapenabler is not just a brand;
+            it's a community of caregivers, educators and families united in the
+            pursuit of enabling special abilities.
+          </p>
+        </div>
+        <div style={{ marginLeft: "4vw", width: "30vw" }}>
+          <p className="font-semibold text-left lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">
+            Our Vision
+          </p>
+          <p className="font-normal text-left text-base leading-6 text-gray-600 mt-6">
+            Tapenabler was born out of a deep commitment to improving the
+            quality of lives for the individuals with special needs. We envision
+            a world where every person, regardless of their abilities, has the
+            opportunity to thrive, learn and achieve their full potential.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

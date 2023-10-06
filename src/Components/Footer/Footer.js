@@ -94,9 +94,13 @@ function Footer() {
                   Working Hours
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Sunday: 10:00 AM - 05:00 PM</a>
+                  <a href="javascript:void(0)">
+                    <b>OFFLINE</b> : 10:00 AM - 05:00 PM (IST) <br />{" "}
+                    <b>ONLINE</b> : 24x7 (Services Available Globally as per
+                    Appointment Only)
+                  </a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                {/* <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
                   <a href="javascript:void(0)">Monday: 10:00 AM - 05:00 PM</a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
@@ -113,7 +117,7 @@ function Footer() {
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
                   <a href="javascript:void(0)">Saturday: 10:00 AM - 05:00 PM</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
