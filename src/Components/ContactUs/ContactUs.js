@@ -148,7 +148,7 @@ export default function ContactUs() {
                         Contact
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        +91 78144 72221
+                        +91 78144 72221 (WhatsApp Only)
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2"></h2>
                     </div>

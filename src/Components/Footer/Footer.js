@@ -97,9 +97,11 @@ function Footer() {
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
                   <a href="javascript:void(0)">
-                    <b>OFFLINE</b> : 10:00 AM - 05:00 PM (IST) <br />{" "}
                     <b>ONLINE</b> : 24x7 (Services Available Globally as per
                     Appointment Only)
+                    <br />
+                    <br />
+                    <b>OFFLINE</b> : 10:00 AM - 05:00 PM (IST) <br />{" "}
                   </a>
                 </li>
               </ul>
