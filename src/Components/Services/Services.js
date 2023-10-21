@@ -134,6 +134,14 @@ export default function Services() {
                     optimal level of personal happiness and social usefulness
                     through various facilities being provided by us.
                   </p>
+                  <br />
+                  <button
+                    style={{ background: "#6D9886" }}
+                    type="button"
+                    class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                  >
+                    Learn More
+                  </button>
                 </div>
               </div>
               <div
@@ -169,17 +177,17 @@ export default function Services() {
                     nature, potentially altering or significantly interfering
                     with the normal growth and development of the young child.
                   </p>
+                  <br />
+                  <button
+                    style={{ background: "#6D9886" }}
+                    type="button"
+                    class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                  >
+                    Learn More
+                  </button>
                 </div>
               </div>
-              <div
-                // onClick={() =>
-                //   handleOpen(
-                //     "AAT",
-                //     "Animal-Assisted Therapy, Activities & Education (AATAE)"
-                //   )
-                // }
-                className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col"
-              >
+              <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
                 <div className="mb-6">
                   <span
                     style={{ fontSize: "35px", color: "#6D9886" }}
@@ -205,6 +213,14 @@ export default function Services() {
                       functioning of the participant with animals as an integral
                       part of the therapy.
                     </p>
+                    <br />
+                    <button
+                      style={{ background: "#6D9886" }}
+                      type="button"
+                      class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                    >
+                      Learn More
+                    </button>
                   </div>
                 </a>
               </div>
@@ -236,6 +252,14 @@ export default function Services() {
                     and/or disorder, through our various and flexible teaching
                     holistic approaches.
                   </p>
+                  <br />
+                  <button
+                    style={{ background: "#6D9886" }}
+                    type="button"
+                    class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                  >
+                    Learn More
+                  </button>
                 </div>
               </div>
               <div
@@ -268,6 +292,14 @@ export default function Services() {
                     readings, textbooks, worksheets, multimedia components and
                     other related resources in a given course of study.
                   </p>
+                  <br />
+                  <button
+                    style={{ background: "#6D9886" }}
+                    type="button"
+                    class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                  >
+                    Learn More
+                  </button>
                 </div>
               </div>
               <div
@@ -297,6 +329,14 @@ export default function Services() {
                     which are further led by professionals and supported by
                     studies showing they can be beneficial.
                   </p>
+                  <br />
+                  <button
+                    style={{ background: "#6D9886" }}
+                    type="button"
+                    class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                  >
+                    Learn More
+                  </button>
                 </div>
               </div>
             </motion.div>
