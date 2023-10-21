@@ -48,7 +48,7 @@ const About = () => {
             style={{ color: "#8E8D8D" }}
             className="text-center font-semibold leading-6  mt-6 text-lg"
           >
-            At Tapenabler, we believe in the boundless potential of every
+            At TapEnabler, we believe in the boundless potential of every
             individual, especially those with unique abilities and/or special
             needs.
             <br />
@@ -117,7 +117,7 @@ const About = () => {
           <p className="font-normal text-left text-base leading-6 text-gray-600 mt-6">
             Our core mission revolves around the enrichment and empowerment of
             those extraordinary individuals through the provision of
-            cutting-edge therapeutic solutions. Tapenabler is not just a brand;
+            cutting-edge therapeutic solutions. TapEnabler is not just a brand;
             it's a community of caregivers, educators and families united in the
             pursuit of enabling special abilities.
           </p>
@@ -127,7 +127,7 @@ const About = () => {
             Our Vision
           </p>
           <p className="font-normal text-left text-base leading-6 text-gray-600 mt-6">
-            Tapenabler was born out of a deep commitment to improving the
+            TapEnabler was born out of a deep commitment to improving the
             quality of lives for the individuals with special needs. We envision
             a world where every person, regardless of their abilities, has the
             opportunity to thrive, learn and achieve their full potential.

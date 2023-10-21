@@ -45,7 +45,9 @@ function Footer() {
                   <a href="#contactus">Contact Us</a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Careers</a>
+                  <a href="https://forms.gle/oKtsZ5oPKhE3NF169" target="_blank">
+                    Careers
+                  </a>
                 </li>
               </ul>
             </div>
@@ -100,24 +102,6 @@ function Footer() {
                     Appointment Only)
                   </a>
                 </li>
-                {/* <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Monday: 10:00 AM - 05:00 PM</a>
-                </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Tuesday: 10:00 AM - 05:00 PM</a>
-                </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Wednesday: HOLIDAY</a>
-                </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Thursday: 10:00 AM - 05:00 PM</a>
-                </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Friday: 10:00 AM - 05:00 PM</a>
-                </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
-                  <a href="javascript:void(0)">Saturday: 10:00 AM - 05:00 PM</a>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -125,14 +109,6 @@ function Footer() {
             <div className="w-11/12 xl:w-2/6 mx-auto lg:mx-0 xl:mx-0 mb-6 xl:mb-0">
               <p className="text-gray-800 text-base">
                 2023 TapEnabler. All Rights Reserved
-                <br />
-                @Developed by{" "}
-                <a
-                  style={{ color: "blue", textDecorationLine: "underline" }}
-                  href="mailto:sahilrohera10@gmail.com"
-                >
-                  Sahil Rohera
-                </a>
               </p>
             </div>
 
