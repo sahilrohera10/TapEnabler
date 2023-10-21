@@ -82,7 +82,7 @@ const Header2 = () => {
             role="navigation"
             aria-label="Main"
             tabIndex="0"
-            className="hidden relative z-10 w-full lg:flex justify-between items-center p-12"
+            className="hidden relative z-10 w-full lg:flex justify-between items-center p-16"
           >
             <div className="w-96">
               <a
@@ -141,7 +141,7 @@ const Header2 = () => {
                 tabIndex="0"
                 className="text-2xl mb-2 font-bold text-center"
               >
-                TapEnabler -
+                TapEnabler
               </p>
               <h1
                 style={{
