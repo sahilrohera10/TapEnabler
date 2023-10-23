@@ -119,7 +119,12 @@ export default function ServiceModal(props) {
                 variant="h6"
                 component="h2"
               >
-                {props.name} new
+                {props.name}
+                <br />
+                <span style={{ fontWeight: "550", fontSize: "17px" }}>
+                  {" "}
+                  (Click on any item to access the form)
+                </span>
               </Typography>
               <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                 <div class="grid-container">
