@@ -158,8 +158,8 @@ export default function ContactUs() {
                             xmlns="http://www.w3.org/2000/svg"
                             x="0px"
                             y="0px"
-                            width="40"
-                            height="40"
+                            width="33"
+                            height="33"
                             viewBox="0 0 48 48"
                           >
                             <path
@@ -189,8 +189,8 @@ export default function ContactUs() {
                             xmlns="http://www.w3.org/2000/svg"
                             x="0px"
                             y="0px"
-                            width="35"
-                            height="35"
+                            width="28"
+                            height="28"
                             viewBox="0 0 48 48"
                           >
                             <path
@@ -210,8 +210,8 @@ export default function ContactUs() {
                             xmlns="http://www.w3.org/2000/svg"
                             x="0px"
                             y="0px"
-                            width="35"
-                            height="35"
+                            width="30"
+                            height="30"
                             viewBox="0 0 48 48"
                           >
                             <path
