@@ -12,10 +12,9 @@ export default function Timings() {
           textAlign: "center",
         }}
       >
-        Timings : Morning 10:00am - Evening 5:00pm (IST) || Monday to Sunday
-        (Wednesday OFF) || Book your Appointment Now +91 78144 72221 (WhatsApp
-        only) <br /> ONLINE : 24x7 (Services Available Globally as per
-        Appointment Only)
+        Timings : Morning 10:00AM - Evening 6:00PM (IST) || Monday to Sunday ||
+        Book your Appointment Now +91 78144 72221 (WhatsApp only) <br /> ONLINE
+        : 24x7 (Services Available Globally as per Appointment Only)
       </p>
     </div>
   );

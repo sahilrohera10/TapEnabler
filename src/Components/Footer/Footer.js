@@ -101,7 +101,7 @@ function Footer() {
                     Appointment Only)
                     <br />
                     <br />
-                    <b>OFFLINE</b> : 10:00 AM - 05:00 PM (IST) <br />{" "}
+                    <b>OFFLINE</b> : 10:00 AM - 06:00 PM (IST) <br />{" "}
                   </a>
                 </li>
               </ul>
