@@ -110,14 +110,14 @@ export default function ContactUs() {
         />
         <div className="xl:mx-auto xl:container  relative ">
           <div className="flex flex-wrap xl:mx-auto xl:container">
-            <div className="w-full relative lg:w-1/2 xl:mt-10 mb-10 2xl:pr-24 2xl:pl-0 xl:pl-12 pl-0 ">
+            <div className="w-full relative lg:w-1/2 xl:mt-10 mb-10 2xl:pr-24 2xl:pl-0 xl:pl-8 pl-0 ">
               <img
                 src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png"
                 className="h-full w-full xl:w-1/2 absolute inset-0 bg-cover bg-center xl:hidden"
                 alt="map"
               />
               <div className="w-full flex flex-col items-start  xl:justify-start  relative z-20 xl:px-0 px-4 xl:py-0 py-4">
-                <div className="w-full 2xl:pl-48 xl:pt-1">
+                <div className="w-full 2xl:pl-24 xl:pt-1">
                   <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-wider text-gray-800">
                     We’re Here
                   </h1>
@@ -247,7 +247,21 @@ export default function ContactUs() {
                         tapenabler@gmail.com
                       </h2>
                     </div>
-                    <img className="mapimg" src={map} alt="" />
+                    <div className="mt-4 md:mt-8">
+                      <h2
+                        style={{ color: "#6D9886" }}
+                        className="text-sm md:text-base text-indigo-700 font-semibold"
+                      >
+                        Locate Us
+                      </h2>
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3432.881753563146!2d76.8233679!3d30.637289900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feb930b2c303f%3A0xb743f5d67abec180!2sTapEnabler%20(Early%20Intervention%20%26%20Day%20Care%20Services%20%7C%20Special%20Education%20%7C%20Counselling%20%26%20Therapies)!5e0!3m2!1sen!2sin!4v1705322063062!5m2!1sen!2sin"
+                        className="mymap"
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>

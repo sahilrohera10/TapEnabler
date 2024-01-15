@@ -49,7 +49,7 @@ function Founder() {
                   </div>
                   <p className="text-gray-800 text-lg text-center">Founder</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                    Mrs. Garima, the founder of Tapenabler, is a dedicated
+                    Mrs. Garima, the founder of TapEnabler, is a dedicated
                     educator with a visionary spirit. Her journey began in the
                     classroom, where she passionately nurtured young minds.
                     However, it was during her tenure as a teacher that she
@@ -81,7 +81,7 @@ function Founder() {
                     Co-Founder
                   </p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                    Ms. Farha Baig, the distinguished co-founder of Tapenabler,
+                    Ms. Farha Baig, the distinguished co-founder of TapEnabler,
                     epitomizes a luminary in the realm of special education. Her
                     illustrious career, steeped in erudition and expertise,
                     serves as the bedrock upon which Tapenabler stands.

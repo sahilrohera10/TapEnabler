@@ -423,6 +423,14 @@ export default function Testimonials() {
           </div>
         </CarouselProvider>
       </div>
+      <h1 className="text-center text-xl font-semibold  leading-tight text-gray-800">
+        <a
+          href="https://www.google.com/maps/place/TapEnabler+(Early+Intervention+%26+Day+Care+Services+%7C+Special+Education+%7C+Counselling+%26+Therapies)/@30.6372899,76.8233679,17z/data=!4m18!1m9!3m8!1s0x390feb930b2c303f:0xb743f5d67abec180!2sTapEnabler+(Early+Intervention+%26+Day+Care+Services+%7C+Special+Education+%7C+Counselling+%26+Therapies)!8m2!3d30.6372899!4d76.8233679!9m1!1b1!16s%2Fg%2F11y2113574!3m7!1s0x390feb930b2c303f:0xb743f5d67abec180!8m2!3d30.6372899!4d76.8233679!9m1!1b1!16s%2Fg%2F11y2113574?entry=ttu"
+          target="_blank"
+        >
+          know More....
+        </a>
+      </h1>
     </div>
   );
 }

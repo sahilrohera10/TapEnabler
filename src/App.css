@@ -58,14 +58,37 @@ body{
   width: 35vw;
 }
 
-@media (max-width : 640px) {
-  .abthr{
-    width: 55vw;
+.mymap{
+  border: 0;
+  width: 42vw;
+  height: 55vh;
+
+}
+
+@media (max-width : 1500px) {
+  .mymap{
+    border: 0;
+    width: 500px;
+    height: 450px;
+  
   }
 }
+
 
 @media (max-width : 1023px) {
   .chipc{
     display: none;
+  }
+  .mymap{
+    border: 0;
+    width: 80vw;
+    height: 60vh;
+  
+  }
+}
+
+@media (max-width : 640px) {
+  .abthr{
+    width: 55vw;
   }
 }
