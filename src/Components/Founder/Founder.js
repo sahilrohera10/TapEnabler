@@ -38,14 +38,14 @@ function Founder() {
                   <div className="h-32 w-32">
                     <img
                       src={garimadi}
-                      alt
+                      alt=""
                       className="rounded-full object-cover h-full w-full shadow-md"
                     />
                   </div>
                 </div>
                 <div className="px-6 mt-16 pb-8">
                   <div className="font-bold text-3xl text-center pb-1">
-                    Garima Walia Rai
+                    Garima Rai Garg
                   </div>
                   <p className="text-gray-800 text-lg text-center">Founder</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
@@ -68,7 +68,7 @@ function Founder() {
                   <div className="h-32 w-32">
                     <img
                       src={frahdi}
-                      alt
+                      alt=""
                       className="rounded-full object-cover h-full w-full shadow-md"
                     />
                   </div>
