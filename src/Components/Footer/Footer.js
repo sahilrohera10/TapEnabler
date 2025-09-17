@@ -70,12 +70,12 @@ function Footer() {
                     (ECIDE)
                   </a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                {/* <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
                   <a href="#services">
                     Animal-Assisted Therapy, Activities & Education <br />{" "}
                     (AATAE)
                   </a>
-                </li>
+                </li> */}
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
                   <a href="#services">
                     Enabling Special Needs <br /> (ESN)
@@ -113,7 +113,7 @@ function Footer() {
           <div className="xl:flex flex-wrap justify-between xl:mt-8 mt-6 pb-6 pl-3 sm:pl-0">
             <div className="w-11/12 xl:w-2/6 mx-auto lg:mx-0 xl:mx-0 mb-6 xl:mb-0">
               <p className="text-gray-800 text-base">
-                2023 TapEnabler. All Rights Reserved
+                2025 TapEnabler. All Rights Reserved
               </p>
             </div>
 

@@ -187,7 +187,7 @@ export default function Services() {
                   </button>
                 </div>
               </div>
-              <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
+              {/* <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
                 <div className="mb-6">
                   <span
                     style={{ fontSize: "35px", color: "#6D9886" }}
@@ -223,7 +223,7 @@ export default function Services() {
                     </button>
                   </div>
                 </a>
-              </div>
+              </div> */}
               <div
                 onClick={() =>
                   handleOpen("ESN", "Enabling Special Needs (ESN)")
